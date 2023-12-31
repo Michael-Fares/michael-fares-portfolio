@@ -278,4 +278,7 @@
     section#landing img#stars-mobile {
       display:block
     }
+    nav {
+      padding: 0 1rem;
+    }
   }
