@@ -20,7 +20,6 @@ function navHighlighter() {
       document
         .querySelector(".navigation a[href*=" + sectionId + "]")
         .classList.add("active");
-        console.log("active added to " + sectionId)
     } else {
       document
         .querySelector(".navigation a[href*=" + sectionId + "]")
@@ -129,4 +128,3 @@ portfolioData.projects.forEach((project, i) => {
   
 })
 
-console.log(window.location)

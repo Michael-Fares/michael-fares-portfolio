@@ -32,7 +32,7 @@
   html {
     font-family: Nunito, sans-serif;
     scroll-behavior: smooth;
-    font-size: clamp(0.75rem, 1.3vmax, 1.75rem);
+    font-size: clamp(0.8rem, 1.3vmax, 1.75rem);
     -webkit-font-smoothing: antialiased;
   }
   nav {
@@ -85,7 +85,7 @@
   section#landing {
     background: linear-gradient(180deg, rgba(39,33,33,1) 0%, rgba(23,109,207,1) 68%, rgba(12,119,239,1) 76%, rgba(255,179,0,1) 100%);
     background-size: 300% 300%;
-    animation: gradient 30s ease-in-out infinite;
+    animation: gradient 15s ease-in-out infinite;
     overflow: hidden;
     margin-bottom: 1rem;
   }
@@ -102,9 +102,11 @@
           opacity: 0.3;
       }
   }
-
-  section#landing img#stars {
-    animation: fade-in-out 30s ease-in-out infinite;
+  section#landing img#stars-mobile {
+    display:none
+  }
+  section#landing img#stars,  section#landing img#stars-mobile {
+    animation: fade-in-out 15s ease infinite;
   }
   /* POSITION the landing content div absolutely  so it works with the SVG*/
   section#landing .landing__content {
@@ -178,7 +180,7 @@
     padding-bottom: 0.75rem;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(24.5rem, 1fr));
     gap: 1rem;
   }
   section#portfolio ul.projects-list li.project-card {
@@ -247,6 +249,7 @@
   }
   section#about .about-content .about-text {
     font-weight: 500;
+    /* font-size: 1.25em; */
     line-height: 1.8em;
     max-width: 50rem;
     margin: 0 auto;
@@ -268,5 +271,11 @@
   @media screen and (max-width: 600px) {
     section#landing .landing__content .first-row {
       flex-direction: column;
+    }
+    section#landing img#stars {
+      display:none
+    }
+    section#landing img#stars-mobile {
+      display:block
     }
   }
