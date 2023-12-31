@@ -76,7 +76,7 @@
           background-position: 50% 0%;
       }
       50% {
-          background-position: 50% 90%;
+          background-position: 50% 100%;
       }
       100% {
           background-position: 50% 0%;
@@ -93,20 +93,20 @@
   
   @keyframes fade-in-out {
     0% {
-          opacity: 0.3;
+          opacity: 0.4;
       }
       50% {
           opacity: 0;
       }
       100% {
-          opacity: 0.3;
+          opacity: 0.4;
       }
   }
   section#landing img#stars-mobile {
     display:none
   }
   section#landing img#stars,  section#landing img#stars-mobile {
-    animation: fade-in-out 15s ease infinite;
+    animation: fade-in-out 15s ease-in-out infinite;
   }
   /* POSITION the landing content div absolutely  so it works with the SVG*/
   section#landing .landing__content {
@@ -249,7 +249,7 @@
   }
   section#about .about-content .about-text {
     font-weight: 500;
-    /* font-size: 1.25em; */
+    font-size: 1.25em;
     line-height: 1.8em;
     max-width: 50rem;
     margin: 0 auto;
