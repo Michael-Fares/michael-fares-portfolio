@@ -32,13 +32,22 @@ function navHighlighter() {
 const portfolioData = {
   "projects": [
     {
+      "name": "TicTacToe.Ai",
+      "description": "A Python AI Agent that plays Tic Tac Toe with the Minimax algorithm, frontent in Typescript/React",
+      "topics": ["AI", "Python", "Typescript", "React"],
+      "site_url": "https://ai-tictactoe.fly.dev/",
+      "code_url": "https://github.com/Michael-Fares/ai-tictactoe",
+      "image_url":"ttt-ai.webp",
+      "image_alt":"Tic Tac Toe board"
+    },
+    {
       "name": "Islamic Tesselation App",
       "description": "App to generate, design and color an Islamic mosaic tile and tessellation downloadable as an svg",
       "topics": ["d3.js", "react.js", "svg"],
       "site_url": "https://tilemaker.netlify.app/",
       "code_url": "https://github.com/Michael-Fares/tiles",
       "image_url":"tiles.webp",
-      "image_alt": ""
+      "image_alt": "Coloring an islamic geometric tesslation"
     },
     {
       "name": "Pixel Perfect Landing Page",
@@ -47,7 +56,7 @@ const portfolioData = {
       "site_url": "https://michael-fares.github.io/landingpage/html/landing.html",
       "code_url": "https://github.com/theMVPshop/landingpage",
       "image_url":"landingpage.webp",
-      "image_alt":""
+      "image_alt":"Zospace Apps Landing Page"
     },
     {
       "name": "Interactive Piano Question",
@@ -56,7 +65,7 @@ const portfolioData = {
       "site_url": "https://demos.learnosity.com/usecases/customquestions/custom_piano.php",
       "code_url": "https://github.com/Learnosity/custom-questions-skeleton/tree/master/demos/piano",
       "image_url":"piano.webp",
-      "image_alt":""
+      "image_alt":"Piano custom question"
     },
     {
       "name": "Interactive Clock Question",
@@ -65,7 +74,7 @@ const portfolioData = {
       "site_url": "https://demos.learnosity.com/usecases/customquestions/custom_clock.php",
       "code_url": "https://github.com/Learnosity/custom-questions-skeleton/tree/master/demos/clock",
       "image_url":"clock.webp",
-      "image_alt":""
+      "image_alt":"Clock custom question"
     },
     {
       "name": "College Scorecard App",
@@ -74,16 +83,7 @@ const portfolioData = {
         "site_url": "https://visualedu.netlify.app/",
         "code_url": "https://github.com/Michael-Fares/educationDataApp",
         "image_url":"college-scorecard.webp",
-        "image_alt":""
-    },
-    {
-      "name": "Make My Decision",
-      "description": "Contracted full stack interactive decision making and visualization app",
-      "topics": ["data-visualization", "Node.js", "Material UI", "react.js", "charts.js", "express.js", "Rest API", "SQL"],
-      "site_url": "https://make-my-decision.netlify.app/",
-      "code_url": "https://github.com/Michael-Fares/make-my-decision-app",
-      "image_url":"make-my-decision.webp",
-      "image_alt":""
+        "image_alt":"Data visualization for Department of Education College Scorecard Data"
     },
     {
       "name": "Ecommerce App",
@@ -92,7 +92,7 @@ const portfolioData = {
       "site_url": "https://elated-thompson-d75004.netlify.app/",
       "code_url": "https://github.com/Michael-Fares/e-commerce-app",
       "image_url":"e-commerce-app.webp",
-      "image_alt":""
+      "image_alt":"e-commerce site"
     }
   ]
 }

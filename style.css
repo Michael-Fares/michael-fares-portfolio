@@ -92,7 +92,7 @@
   
   
   @keyframes fade-in-out {
-    0% {
+      0% {
           opacity: 0.4;
       }
       50% {
@@ -116,6 +116,11 @@
     left: 5%;
     right: 5%;
     color:var(--white);
+    transition: ease-in 0.2s opacity;
+    opacity: 1;
+    @starting-style {
+      opacity: 0;
+    }
   }
 
   section#landing .landing__content .first-row {
@@ -163,7 +168,7 @@
   }
 
   section#landing a.portfolio-btn {
-    animation: pulse 2s infinite forwards;
+    animation: pulse 5s infinite forwards;
     font-weight: 900;
     margin-top: 3rem;
   }
