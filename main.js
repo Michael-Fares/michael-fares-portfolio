@@ -33,7 +33,7 @@ const portfolioData = {
   "projects": [
     {
       "name": "TicTacToe.Ai",
-      "description": "A Python AI Agent that plays Tic Tac Toe with the Minimax algorithm, frontent in Typescript/React",
+      "description": "A Python AI Agent that plays Tic Tac Toe with the Minimax algorithm, frontend in Typescript/React",
       "topics": ["AI", "Python", "Typescript", "React"],
       "site_url": "https://ai-tictactoe.fly.dev/",
       "code_url": "https://github.com/Michael-Fares/ai-tictactoe",
